@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1A",
+        "occupied": false
+    },
+    {
+        "id": "1B",
+        "occupied": true
+    },
+    {
+        "id": "1C",
+        "occupied": false
+    },
+    {
+        "id": "1D",
+        "occupied": false
+    },
+    {
+        "id": "2A",
+        "occupied": false
+    },
+    {
+        "id": "2B",
+        "occupied": false
+    },
+    {
+        "id": "2C",
+        "occupied": true
+    },
+    {
+        "id": "2D",
+        "occupied": false
+    },
+    {
+        "id": "3A",
+        "occupied": false
+    },
+    {
+        "id": "3B",
+        "occupied": false
+    },
+    {
+        "id": "3C",
+        "occupied": false
+    },
+    {
+        "id": "3D",
+        "occupied": true
+    },
+    {
+        "id": "4A",
+        "occupied": false
+    },
+    {
+        "id": "4B",
+        "occupied": false
+    },
+    {
+        "id": "4C",
+        "occupied": false
+    },
+    {
+        "id": "4D",
+        "occupied": false
+    },
+    {
+        "id": "5A",
+        "occupied": true
+    },
+    {
+        "id": "5B",
+        "occupied": false
+    },
+    {
+        "id": "5C",
+        "occupied": false
+    },
+    {
+        "id": "5D",
+        "occupied": false
+    },
+    {
+        "id": "6A",
+        "occupied": false
+    },
+    {
+        "id": "6B",
+        "occupied": false
+    },
+    {
+        "id": "6C",
+        "occupied": false
+    },
+    {
+        "id": "6D",
+        "occupied": true
+    }
+]

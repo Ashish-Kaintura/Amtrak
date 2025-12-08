@@ -1,0 +1,27 @@
+[
+    {
+        "code": "NYP",
+        "city": "New York, NY",
+        "label": "New York, NY (NYP)"
+    },
+    {
+        "code": "BOS",
+        "city": "Boston, MA",
+        "label": "Boston, MA (BOS)"
+    },
+    {
+        "code": "WAS",
+        "city": "Washington, DC",
+        "label": "Washington, DC (WAS)"
+    },
+    {
+        "code": "PHL",
+        "city": "Philadelphia, PA",
+        "label": "Philadelphia, PA (PHL)"
+    },
+    {
+        "code": "BAL",
+        "city": "Baltimore, MD",
+        "label": "Baltimore, MD (BAL)"
+    }
+]

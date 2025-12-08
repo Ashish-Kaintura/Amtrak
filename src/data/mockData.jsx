@@ -1,0 +1,32 @@
+export const SAMPLE_TRAINS = [
+    {
+        id: "A123",
+        name: "Northeast Regional",
+        depart: "08:15",
+        arrive: "11:45",
+        duration: "3h 30m",
+        price: 45,
+        classes: ["Coach", "Business"],
+        availability: 12,
+    },
+    {
+        id: "A456",
+        name: "Acela Express",
+        depart: "09:00",
+        arrive: "10:40",
+        duration: "1h 40m",
+        price: 120,
+        classes: ["Business", "First"],
+        availability: 5,
+    },
+    {
+        id: "A789",
+        name: "Coastal Breeze",
+        depart: "13:30",
+        arrive: "17:10",
+        duration: "3h 40m",
+        price: 60,
+        classes: ["Coach"],
+        availability: 20,
+    },
+];

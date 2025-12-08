@@ -1,0 +1,22 @@
+[
+    {
+        "id": "A123",
+        "name": "Northeast Regional",
+        "depart": "08:00",
+        "arrive": "11:00",
+        "duration": "3h",
+        "price": 45,
+        "from": "New York",
+        "to": "Boston"
+    },
+    {
+        "id": "B410",
+        "name": "Pacific Surfliner",
+        "depart": "09:30",
+        "arrive": "13:45",
+        "duration": "4h 15m",
+        "price": 60,
+        "from": "Los Angeles",
+        "to": "San Diego"
+    }
+]
