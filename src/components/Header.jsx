@@ -19,8 +19,8 @@ export default function Header() {
 
   const navLinks = [
     { name: 'About', path: '/about' },
-    { name: 'Train Routes', path: '/dashboard' },
-    { name: 'Deals', path: '/admin' }, // Assuming admin is deals based on your old code
+    { name: 'Train Routes', path: '/results' },
+    { name: 'Deals', path: '/admin' },
   ]
 
   return (

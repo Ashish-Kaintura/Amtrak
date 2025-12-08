@@ -1,27 +1,74 @@
 [
-    {
-        "code": "NYP",
-        "city": "New York, NY",
-        "label": "New York, NY (NYP)"
-    },
-    {
-        "code": "BOS",
-        "city": "Boston, MA",
-        "label": "Boston, MA (BOS)"
-    },
-    {
-        "code": "WAS",
-        "city": "Washington, DC",
-        "label": "Washington, DC (WAS)"
-    },
-    {
-        "code": "PHL",
-        "city": "Philadelphia, PA",
-        "label": "Philadelphia, PA (PHL)"
-    },
-    {
-        "code": "BAL",
-        "city": "Baltimore, MD",
-        "label": "Baltimore, MD (BAL)"
-    }
+  
+  { "label": "New York, NY (NYP)", "code": "NYP" },
+  { "label": "Boston, MA (BOS)", "code": "BOS" },
+  { "label": "Washington, DC (WAS)", "code": "WAS" },
+  { "label": "Philadelphia, PA (PHL)", "code": "PHL" },
+  { "label": "Chicago, IL (CHI)", "code": "CHI" },
+  { "label": "Los Angeles, CA (LAX)", "code": "LAX" },
+  { "label": "San Francisco, CA (SFC)", "code": "SFC" },
+  { "label": "Seattle, WA (SEA)", "code": "SEA" },
+  { "label": "Miami, FL (MIA)", "code": "MIA" },
+  { "label": "Dallas, TX (DAL)", "code": "DAL" },
+
+  
+  { "label": "London, UK (LON)", "code": "LON" },
+  { "label": "London King's Cross (KGX)", "code": "KGX" },
+  { "label": "London Paddington (PAD)", "code": "PAD" },
+  { "label": "Manchester, UK (MAN)", "code": "MAN" },
+  { "label": "Birmingham, UK (BHM)", "code": "BHM" },
+  { "label": "Edinburgh, UK (EDB)", "code": "EDB" },
+  { "label": "Glasgow, UK (GLC)", "code": "GLC" },
+  { "label": "Liverpool, UK (LIV)", "code": "LIV" },
+
+
+  { "label": "Paris Gare du Nord (PGN)", "code": "PGN" },
+  { "label": "Paris Gare de Lyon (PGL)", "code": "PGL" },
+  { "label": "Lyon Part-Dieu (LYD)", "code": "LYD" },
+  { "label": "Marseille St-Charles (MSC)", "code": "MSC" },
+  { "label": "Nice Ville (NCE)", "code": "NCE" },
+
+
+  { "label": "Berlin Hbf (BER)", "code": "BER" },
+  { "label": "Munich Hbf (MUC)", "code": "MUC" },
+  { "label": "Frankfurt Hbf (FRA)", "code": "FRA" },
+  { "label": "Hamburg Hbf (HAM)", "code": "HAM" },
+  { "label": "Cologne Hbf (COL)", "code": "COL" },
+
+
+  { "label": "Rome Termini (ROM)", "code": "ROM" },
+  { "label": "Milan Centrale (MIL)", "code": "MIL" },
+  { "label": "Florence SMN (FLR)", "code": "FLR" },
+  { "label": "Venice Santa Lucia (VSL)", "code": "VSL" },
+
+  
+  
+  { "label": "Madrid Atocha (MAD)", "code": "MAD" },
+  { "label": "Barcelona Sants (BCN)", "code": "BCN" },
+  { "label": "Valencia Joaquín Sorolla (VLC)", "code": "VLC" },
+
+  
+  { "label": "Zurich HB (ZRH)", "code": "ZRH" },
+  { "label": "Geneva Cornavin (GVA)", "code": "GVA" },
+  { "label": "Basel SBB (BSL)", "code": "BSL" },
+
+ 
+  { "label": "Amsterdam Centraal (AMS)", "code": "AMS" },
+  { "label": "Rotterdam Centraal (RTM)", "code": "RTM" },
+
+
+  { "label": "Brussels Midi (BRU)", "code": "BRU" },
+  { "label": "Antwerp Centraal (ANT)", "code": "ANT" },
+
+
+  { "label": "Toronto Union Station (TOR)", "code": "TOR" },
+  { "label": "Vancouver Pacific Central (VAN)", "code": "VAN" },
+  { "label": "Montreal Central (MON)", "code": "MON" },
+  { "label": "Ottawa Station (OTW)", "code": "OTW" },
+
+
+  { "label": "Sydney Central (SYD)", "code": "SYD" },
+  { "label": "Melbourne Southern Cross (MEL)", "code": "MEL" },
+  { "label": "Brisbane Roma Street (BNE)", "code": "BNE" },
+  { "label": "Perth Station (PER)", "code": "PER" }
 ]
