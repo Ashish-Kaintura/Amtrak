@@ -9,7 +9,7 @@ export default function Testimonials() {
         { 
             name: 'Sarah Johnson', 
             role: 'Frequent Traveler', 
-            text: 'Booking with Amtrak has never been easier. The mobile app is fantastic and the board experience was seamless.', 
+            text: 'Booking with Amtrek Reservation  has never been easier. The mobile app is fantastic and the board experience was seamless.', 
             rating: 5,
             image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop'
         },
@@ -68,7 +68,7 @@ export default function Testimonials() {
                         Trusted by Millions
                     </h3>
                     <p className="text-slate-300 text-lg max-w-2xl mx-auto">
-                        Discover why travelers across the nation choose Amtrak for their journey.
+                        Discover why travelers across the nation choose Amtrek Reservation  for their journey.
                     </p>
                 </div>
 

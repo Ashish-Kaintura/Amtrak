@@ -6,21 +6,21 @@ export default function HeroSlider() {
 
     const heroSlides = [
         {
-            bg: 'https://i.postimg.cc/CMqq5Rjj/husqqqy_BXH14Mul_FWk_unsplash.jpg',
+            bg: 'https://i.postimg.cc/TP7kgLbY/quenten_janssen_8n_D9ZTu_TWtg_unsplash.jpg',
             title: 'Premium Routes Now Open',
             subtitle: 'Discover our luxury Acela service with enhanced amenities and unparalleled comfort.',
             badge: 'Exclusive Offers'
         },
         {
             bg: 'https://i.postimg.cc/FFLLzYjP/sash_bo_5Jw_BM9n_ZSI_unsplash.jpg',
-            title: 'Travel Smarter with Amtrak',
+            title: 'Travel Smarter with Amtrek Reservation ',
             subtitle: 'Experience comfort, convenience, and sustainable travel across the nation.',
             badge: 'New: Mobile Boarding'
         },
         {
             bg: 'https://i.postimg.cc/4499yYzW/rhamely_u_SIu_Nyj_Rioc_unsplash.jpg',
             title: 'Earn Rewards Every Trip',
-            subtitle: 'Join Amtrak Guest Rewards today and start saving on your future adventures.',
+            subtitle: 'Join Amtrek Reservation  Guest Rewards today and start saving on your future adventures.',
             badge: 'Loyalty Program'
         }
     ];
@@ -47,7 +47,7 @@ export default function HeroSlider() {
 
     return (
         <div
-            className="relative w-full h-screen overflow-hidden group font-sans"
+            className="relative w-full h-screen overflow-hidden group font-sans "
             onMouseEnter={() => setIsPaused(true)}
             onMouseLeave={() => setIsPaused(false)}
         >

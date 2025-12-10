@@ -10,7 +10,7 @@ export default function Dashboard() {
 
       <aside className="bg-white p-6 rounded-xl shadow">
         <h4 className="font-semibold mb-3">Profile</h4>
-        <div className="text-sm text-slate-600">Signed in as demo@amtrak.com</div>
+        <div className="text-sm text-slate-600">Signed in as demo@Amtrek Reservation .com</div>
         <div className="mt-4">
           <button className="px-4 py-2 border rounded">Manage travelers</button>
         </div>

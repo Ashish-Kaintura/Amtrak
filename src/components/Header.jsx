@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, Links, useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, Train, Search, Ticket } from 'lucide-react'
 
@@ -7,6 +7,7 @@ export default function Header() {
   const navigate = useNavigate()
   const [isOpen, setIsOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
+
 
   // Handle Scroll Effect
   useEffect(() => {
@@ -20,14 +21,14 @@ export default function Header() {
   const navLinks = [
     { name: 'About', path: '/about' },
     { name: 'Train Routes', path: '/results' },
-    { name: 'Deals', path: '/admin' },
+    { name: 'Deals', path: '/deals&offers' },
   ]
 
   return (
     <motion.header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-          ? 'bg-white/80 backdrop-blur-md shadow-sm py-3'
-          : 'bg-white py-5'
+        ? 'bg-white/80 backdrop-blur-md shadow-sm py-3'
+        : 'bg-white py-5'
         }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
@@ -42,7 +43,7 @@ export default function Header() {
           </div>
           <div>
             <h1 className="text-xl font-extrabold text-slate-900 leading-none tracking-tight">
-              Amtrak<span className="text-blue-700">Tickets</span>
+              Amtrek Reservation <span className="text-blue-700">Tickets</span>
             </h1>
             <p className="text-[10px] font-medium text-slate-500 uppercase tracking-widest mt-0.5">
               Fast • Reliable • Simple
@@ -68,10 +69,10 @@ export default function Header() {
           </button>
 
           {/* CTA Button */}
-          <button className="ml-4 flex items-center gap-2 px-5 py-2.5 bg-blue-700 hover:bg-blue-800 text-white rounded-full text-sm font-semibold shadow-lg shadow-blue-700/20 transition-all hover:scale-105 active:scale-95">
+          <Link to="/contact">    <button className="ml-4 flex items-center gap-2 px-5 py-2.5 bg-blue-700 hover:bg-blue-800 text-white rounded-full text-sm font-semibold shadow-lg shadow-blue-700/20 transition-all hover:scale-105 active:scale-95">
             <Ticket className="w-4 h-4" />
             Book Tickets
-          </button>
+          </button></Link>
         </nav>
 
         {/* --- Mobile Menu Toggle --- */}

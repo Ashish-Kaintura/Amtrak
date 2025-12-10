@@ -1,9 +1,23 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { Map, Users, Globe, Award, ArrowRight, Train } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import video from "../video/trainvideo.mp4";
+import video from "../video/aboutvideo.mp4";
 export default function About() {
+    const [expanded, setExpanded] = useState(false);
+
+    const shortText =
+        "From our humble beginnings to a modern transportation giant, every decade has brought innovation to the American railway.";
+
+    const longText = `
+    From our humble beginnings to becoming a modern transportation giant, our journey spans over a century of transformation.
+    Each decade brought groundbreaking innovations — from expanding long-distance connectivity to introducing high-speed trains,
+    building state-of-the-art rail infrastructure, adopting eco-friendly operations, and enhancing passenger experience through
+    world-class service standards. What started as a simple mode of transport is now an icon of reliability, comfort, and
+    technological advancement in the American transportation landscape.
+    Our legacy continues to inspire future generations as we redefine mobility for tomorrow.
+  `;
+
     const navigate = useNavigate();
     const containerRef = useRef(null);
     const { scrollYProgress } = useScroll({
@@ -114,12 +128,22 @@ export default function About() {
                     {/* Left Sticky Header */}
                     <div className="md:w-1/3">
                         <div className="sticky top-32">
-                            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Our Legacy</h2>
-                            <p className="text-slate-500 text-lg leading-relaxed mb-8">
-                                From our humble beginnings to a modern transportation giant, every decade has brought innovation to the American railway.
+                            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
+                                Our Legacy
+                            </h2>
+
+                            {/* Summary Text */}
+                            <p className="text-slate-500 text-lg leading-relaxed mb-4 transition-all duration-300">
+                                {expanded ? longText : shortText}
                             </p>
-                            <button className="group flex items-center gap-2 text-blue-600 font-semibold hover:gap-4 transition-all">
-                                Read full history <ArrowRight className="w-4 h-4" />
+
+                            {/* Read More Button */}
+                            <button
+                                onClick={() => setExpanded(!expanded)}
+                                className="group flex items-center gap-2 text-blue-600 font-semibold hover:gap-4 transition-all"
+                            >
+                                {expanded ? "Read less" : "Read full history"}
+                                <ArrowRight className={`w-4 h-4 transition-transform ${expanded ? "rotate-180" : ""}`} />
                             </button>
                         </div>
                     </div>
@@ -130,7 +154,7 @@ export default function About() {
                         <div className="absolute left-0 top-0 bottom-0 w-px bg-slate-200 md:hidden"></div>
 
                         {[
-                            { year: '1971', title: 'The Beginning', desc: 'Amtrak begins service on May 1st with 184 trains serving 43 states.', img: 'https://i.postimg.cc/5tgpnbbR/licensed-image.jpg' },
+                            { year: '1971', title: 'The Beginning', desc: 'Amtrek Reservation  begins service on May 1st with 184 trains serving 43 states.', img: 'https://i.postimg.cc/5tgpnbbR/licensed-image.jpg' },
                             { year: '2000', title: 'High Speed Era', desc: 'Acela Express launches, introducing high-speed rail to the Northeast Corridor.', img: 'https://i.postimg.cc/T1fDSW0b/Gemini_Generated_Image_it38viit38viit38.png' },
                             { year: '2024', title: 'The Future', desc: 'New fleet of sustainable, AI-assisted trains rolls out across the nation.', img: 'https://i.postimg.cc/0jPw3Jnm/Gemini_Generated_Image_rmubnyrmubnyrmub.png' }
                         ].map((item, idx) => (
@@ -170,33 +194,33 @@ export default function About() {
             </section>
 
 
-           
-                        <section className="py-32 bg-black/85 text-white relative overflow-hidden my-20">
-                            {/* Background Video */}
-                            <video
-                                autoPlay
-                                muted
-                                loop
-                                className="absolute inset-0 w-full h-full object-cover opacity-30"
-                            >
-                                <source src={video} type="video/mp4" />
-                            </video>
 
-                            <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
-                                <Award className="w-16 h-16 text-amber-400 mx-auto mb-8" />
-                                <h2 className="text-4xl md:text-6xl font-bold leading-tight mb-8">
-                                    "The journey is not just about moving. It's about being moved."
-                                </h2>
-                                {/* <div className="flex justify-center gap-2">
+            <section className="py-32 bg-black/85 text-white relative overflow-hidden my-20">
+                {/* Background Video */}
+                <video
+                    autoPlay
+                    muted
+                    loop
+                    className="absolute inset-0 w-full h-full object-cover opacity-30"
+                >
+                    <source src={video} type="video/mp4" />
+                </video>
+
+                <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
+                    <Award className="w-16 h-16 text-amber-400 mx-auto mb-8" />
+                    <h2 className="text-4xl md:text-6xl font-bold leading-tight mb-8">
+                        "The journey is not just about moving. It's about being moved."
+                    </h2>
+                    {/* <div className="flex justify-center gap-2">
                                     {[1, 2, 3, 4, 5].map((_, i) => (
                                         <div key={i} className="w-2 h-2 rounded-full bg-white/60"></div>
                                     ))}
                                 </div> */}
-                            </div>
-                        </section>
+                </div>
+            </section>
 
 
-                        {/* --- 5. MEET THE LEADERSHIP (Minimal) --- */}
+            {/* --- 5. MEET THE LEADERSHIP (Minimal) --- */}
             <section className="py-24 max-w-7xl mx-auto px-6">
                 <div className="flex flex-col md:flex-row justify-between items-end mb-16">
                     <div>

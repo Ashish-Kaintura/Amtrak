@@ -10,7 +10,7 @@ import Testimonials from '../components/Testimonials'
 
 export default function Home() {
   return (
-    <section className="mt-1">
+    <section className="">
       <HeroSlider />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-7xl mx-auto mt-12">
         <div>
@@ -71,7 +71,7 @@ export default function Home() {
       <section className="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h3 className="text-4xl font-bold mb-4">Ready to Start Your Journey?</h3>
-          <p className="text-xl text-slate-300 mb-8">Join millions of travelers who choose Amtrak every year</p>
+          <p className="text-xl text-slate-300 mb-8">Join millions of travelers who choose Amtrek Reservation  every year</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="px-8 py-4 bg-amber-600 hover:bg-amber-700 text-white font-semibold rounded-full transition-colors">
               Book Your Trip Now

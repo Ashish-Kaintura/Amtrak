@@ -12,18 +12,24 @@ export default function Results() {
     { id: 'A123', name: 'Northeast Regional', depart: '08:15', arrive: '11:45', duration: '3h 30m', price: 45, availability: 12 },
     { id: 'A456', name: 'Acela Express', depart: '09:00', arrive: '10:40', duration: '1h 40m', price: 120, availability: 5 },
     { id: 'A789', name: 'Coastal Breeze', depart: '13:30', arrive: '17:10', duration: '3h 40m', price: 60, availability: 20 },
+    { id: 'A123', name: 'Northeast Regional', depart: '08:15', arrive: '11:45', duration: '3h 30m', price: 45, availability: 12 },
+    { id: 'A456', name: 'Acela Express', depart: '09:00', arrive: '10:40', duration: '1h 40m', price: 120, availability: 5 },
+    { id: 'A789', name: 'Coastal Breeze', depart: '13:30', arrive: '17:10', duration: '3h 40m', price: 60, availability: 20 },
+    { id: 'A123', name: 'Northeast Regional', depart: '08:15', arrive: '11:45', duration: '3h 30m', price: 45, availability: 12 },
+    { id: 'A456', name: 'Acela Express', depart: '09:00', arrive: '10:40', duration: '1h 40m', price: 120, availability: 5 },
+    { id: 'A789', name: 'Coastal Breeze', depart: '13:30', arrive: '17:10', duration: '3h 40m', price: 60, availability: 20 },
   ]
 
   return (
     <section>
-      <div className="flex items-center justify-between mb-6">
+      <div className="flex items-center justify-between mb-6 mt-20 p-4 ">
         <div>
           <div className="text-sm text-slate-500">Results for</div>
           <div className="font-semibold">{from} → {to} • {date}</div>
         </div>
       </div>
 
-      <div className="space-y-4">
+      <div className="space-y-4 p-4">
         {sampleTrains.map(t => <TrainCard key={t.id} train={t} />)}
       </div>
     </section>

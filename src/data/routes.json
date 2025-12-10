@@ -3,7 +3,7 @@
         {
             "id": "NE-173",
             "train_name": "Northeast Regional 173",
-            "operator": "Amtrak",
+            "operator": "Amtrek Reservation ",
             "type": "Regional",
             "depart": "08:15",
             "arrive": "11:50",
@@ -29,7 +29,7 @@
         {
             "id": "REG-87",
             "train_name": "Regional 87",
-            "operator": "Amtrak",
+            "operator": "Amtrek Reservation ",
             "type": "Regional",
             "depart": "07:10",
             "arrive": "09:03",
@@ -55,7 +55,7 @@
         {
             "id": "PS-564",
             "train_name": "Pacific Surfliner 564",
-            "operator": "Amtrak",
+            "operator": "Amtrek Reservation ",
             "type": "Regional Scenic",
             "depart": "08:25",
             "arrive": "11:05",
@@ -81,7 +81,7 @@
         {
             "id": "CC-532",
             "train_name": "Capitol Corridor 532",
-            "operator": "Amtrak",
+            "operator": "Amtrek Reservation ",
             "type": "Intercity",
             "depart": "09:10",
             "arrive": "11:03",
@@ -106,8 +106,8 @@
     "SEA_PDX": [
         {
             "id": "CAS-503",
-            "train_name": "Amtrak Cascades 503",
-            "operator": "Amtrak",
+            "train_name": "Amtrek Reservation  Cascades 503",
+            "operator": "Amtrek Reservation ",
             "type": "Scenic",
             "depart": "08:45",
             "arrive": "12:05",

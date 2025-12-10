@@ -1,1 +1,62 @@
 @import "tailwindcss";
+
+/* index.css */
+
+/* global css of loader dhek lena bhai jo bhi new developer ho */
+
+/* Moves the track ties to the left to simulate forward motion */
+@keyframes moveTrack {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -40px 0;
+    }
+}
+
+/* Makes the train engine shake/rumble slightly  */
+@keyframes rumble {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-2px);
+    }
+}
+
+/* Smoke puff animation */
+@keyframes smokeRise {
+    0% {
+        opacity: 0;
+        transform: scale(0.5) translateY(0);
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1.5) translateY(-20px);
+    }
+}
+
+.animate-track {
+    animation: moveTrack 0.5s linear infinite;
+}
+
+.animate-rumble {
+    animation: rumble 0.2s linear infinite;
+}
+
+.animate-smoke-1 {
+    animation: smokeRise 2s infinite 0s;
+}
+
+.animate-smoke-2 {
+    animation: smokeRise 2s infinite 1s;
+}

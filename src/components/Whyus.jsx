@@ -46,10 +46,10 @@ export default function WhyUs() {
                 {/* Header Section */}
                 <div className="text-center max-w-3xl mx-auto mb-20">
                     <span className="text-blue-600 font-semibold tracking-wider text-sm uppercase mb-3 block">
-                        The Amtrak Difference
+                        The Amtrek Reservation  Difference
                     </span>
                     <h3 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-                        Why millions choose <span className="text-blue-700">Amtrak</span>
+                        Why millions choose <span className="text-blue-700">Amtrek Reservation </span>
                     </h3>
                     <p className="text-slate-500 text-lg md:text-xl leading-relaxed">
                         We don't just move people; we connect communities. Experience the comfort,
