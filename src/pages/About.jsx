@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { Map, Users, Globe, Award, ArrowRight, Train } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import video from "../video/aboutvideo.mp4";
+import video from "../video/train video.mp4";
 export default function About() {
     const [expanded, setExpanded] = useState(false);
 

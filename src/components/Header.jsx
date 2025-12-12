@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link, Links, useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, Train, Search, Ticket } from 'lucide-react'
+import TrainRouteSearch from './TrainRouteSearch'
 
 export default function Header() {
   const navigate = useNavigate()
@@ -20,7 +21,7 @@ export default function Header() {
 
   const navLinks = [
     { name: 'About', path: '/about' },
-    { name: 'Train Routes', path: '/results' },
+    { name: 'Train Routes', path: '/All-train-routes' },
     { name: 'Deals', path: '/deals&offers' },
   ]
 
@@ -64,9 +65,9 @@ export default function Header() {
           ))}
 
           {/* Search Icon Button */}
-          <button className="p-2 ml-2 text-slate-500 hover:text-blue-700 hover:bg-blue-50 rounded-full transition-all">
-            <Search className="w-5 h-5" />
-          </button>
+          <div className="p-2 ml-2 text-slate-500 hover:text-blue-700 hover:bg-blue-50 rounded-full transition-all">
+            <TrainRouteSearch/>
+          </div>
 
           {/* CTA Button */}
           <Link to="/contact">    <button className="ml-4 flex items-center gap-2 px-5 py-2.5 bg-blue-700 hover:bg-blue-800 text-white rounded-full text-sm font-semibold shadow-lg shadow-blue-700/20 transition-all hover:scale-105 active:scale-95">

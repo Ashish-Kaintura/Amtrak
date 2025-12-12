@@ -12,7 +12,7 @@ export default function HeroSlider() {
             badge: 'Exclusive Offers'
         },
         {
-            bg: 'https://i.postimg.cc/FFLLzYjP/sash_bo_5Jw_BM9n_ZSI_unsplash.jpg',
+            bg: 'https://i.postimg.cc/Pqw47tsj/home-2.png',
             title: 'Travel Smarter with Amtrek Reservation ',
             subtitle: 'Experience comfort, convenience, and sustainable travel across the nation.',
             badge: 'New: Mobile Boarding'

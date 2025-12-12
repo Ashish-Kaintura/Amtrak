@@ -15,6 +15,11 @@ import About from './pages/About'
 import Offers from './pages/Offers'
 import BookNowContact from './pages/BookNowContact'
 import AmtrakLoader from './components/AmtrakLoader'
+import TrainResults from './pages/TrainResults'
+import TrainRoutes from './pages/TrainRoutes'
+import PrivacyPolicy from './pages/PrivacyPolicy'
+import HelpCenter from './pages/HelpCenter'
+import TermsAndCondition from './pages/TermsAndCondition'
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -43,6 +48,11 @@ export default function App() {
                 <Route path="/success" element={<PageWrapper><Success /></PageWrapper>} />
                 <Route path="/dashboard" element={<PageWrapper><Dashboard /></PageWrapper>} />
                 <Route path="/deals&offers" element={<PageWrapper><Offers /></PageWrapper>} />
+                <Route path="/train-result" element={<PageWrapper><TrainResults /></PageWrapper>} />
+                <Route path="/All-train-routes" element={<PageWrapper><TrainRoutes /></PageWrapper>} />
+                <Route path="/privacy-policy" element={<PageWrapper><PrivacyPolicy /></PageWrapper>} />
+                <Route path="/help-center" element={<PageWrapper><HelpCenter /></PageWrapper>} />
+                <Route path="/terms-and-condition" element={<PageWrapper><TermsAndCondition /></PageWrapper>} />
                 <Route path="/contact" element={<PageWrapper><BookNowContact /></PageWrapper>} />
               </Routes>
             </AnimatePresence>
