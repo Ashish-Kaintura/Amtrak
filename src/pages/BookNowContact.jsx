@@ -12,7 +12,7 @@ export default function BookNowContact() {
                         initial={{ scale: 1.2 }}
                         animate={{ scale: 1 }}
                         transition={{ duration: 10 }}
-                        src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=2100&auto=format&fit=crop"
+                        src="https://i.postimg.cc/fTgGD7mh/Contect_Banner_3.jpg"
                         className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-white"></div>
