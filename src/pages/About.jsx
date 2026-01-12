@@ -43,7 +43,7 @@ export default function About() {
                         className="w-full h-full"
                     >
                         <img
-                            src="https://images.unsplash.com/photo-1474487548417-781cb71495f3?q=80&w=2184&auto=format&fit=crop"
+                            src="https://i.postimg.cc/Qxn2hg1N/Banner_(1).jpg"
                             alt="Hero Train"
                             className="w-full h-full object-cover"
                         />

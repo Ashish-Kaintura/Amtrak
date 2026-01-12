@@ -188,7 +188,7 @@ export default function BookNowContact() {
 
                     <div className="rounded-3xl overflow-hidden shadow-2xl border border-slate-100">
                         <img
-                            src="https://i.postimg.cc/QCYkGXYQ/global-reach.png"
+                            src="https://i.postimg.cc/tgbZvmv4/contact-image.png"
                             className="w-full h-[450px] object-cover"
                         />
                     </div>

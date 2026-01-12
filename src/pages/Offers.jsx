@@ -25,7 +25,7 @@ export default function Offers() {
             desc: "Enjoy unbeatable deals during peak holiday seasons. Limited-time festive discounts on all popular routes.",
             tag: "UP TO 40% OFF",
             icon: Sparkles,
-            img: "https://i.postimg.cc/4xmtn9VR/Gemini_Generated_Image_kcvstkkcvstkkcvs.png"
+            img: "https://i.postimg.cc/65RCHR6c/Banner-(2).jpg"
         },
         {
             title: "Exclusive Coupon Codes",
