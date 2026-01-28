@@ -3,7 +3,7 @@ import { Link, Links, useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, Train, Search, Ticket } from 'lucide-react'
 import TrainRouteSearch from './TrainRouteSearch'
-
+import logo from "../../public/logoam.png"
 export default function Header() {
   const navigate = useNavigate()
   const [isOpen, setIsOpen] = useState(false)
@@ -39,17 +39,11 @@ export default function Header() {
 
         {/* --- Logo Section --- */}
         <div className="flex items-center gap-3 cursor-pointer group" onClick={() => navigate('/')}>
-          <div className="bg-blue-700 text-white p-2.5 rounded-lg group-hover:bg-blue-800 transition-colors">
+          {/* <div className="bg-blue-700 text-white p-2.5 rounded-lg group-hover:bg-blue-800 transition-colors">
             <Train className="w-6 h-6" />
-          </div>
-          <div>
-            <h1 className="text-xl font-extrabold text-slate-900 leading-none tracking-tight">
-              Amtrek Reservation <span className="text-blue-700">Tickets</span>
-            </h1>
-            <p className="text-[10px] font-medium text-slate-500 uppercase tracking-widest mt-0.5">
-              Fast • Reliable • Simple
-            </p>
-          </div>
+          </div> */}
+          {/* */}
+          <Link to=""> <img width={142} src={logo} alt="logo" /> </Link>
         </div>
 
         {/* --- Desktop Navigation --- */}
@@ -66,7 +60,7 @@ export default function Header() {
 
           {/* Search Icon Button */}
           <div className="p-2 ml-2 text-slate-500 hover:text-blue-700 hover:bg-blue-50 rounded-full transition-all">
-            <TrainRouteSearch/>
+            <TrainRouteSearch />
           </div>
 
           {/* CTA Button */}

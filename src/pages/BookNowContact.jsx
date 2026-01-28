@@ -17,7 +17,6 @@ export default function BookNowContact() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-white"></div>
                 </div>
-
                 <motion.div
                     initial={{ opacity: 0, y: 40 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -66,7 +65,7 @@ export default function BookNowContact() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-lg text-slate-900">Phone Support</h4>
-                                    <p className="text-slate-500">+1 (800) 555-0110</p>
+                                    <p className="text-slate-500">(866) 306-1219</p>
                                 </div>
                             </div>
 
@@ -86,7 +85,7 @@ export default function BookNowContact() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-lg text-slate-900">Head Office</h4>
-                                    <p className="text-slate-500">New York, United States</p>
+                                    <p className="text-slate-500">17662 Irvine Blvd, Suite 9 Tustin, CA 92780</p>
                                 </div>
                             </div>
                         </div>
@@ -188,7 +187,7 @@ export default function BookNowContact() {
 
                     <div className="rounded-3xl overflow-hidden shadow-2xl border border-slate-100">
                         <img
-                            src="https://i.postimg.cc/QCYkGXYQ/global-reach.png"
+                            src="https://i.postimg.cc/tgbZvmv4/contact-image.png"
                             className="w-full h-[450px] object-cover"
                         />
                     </div>

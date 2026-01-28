@@ -43,7 +43,7 @@ export default function About() {
                         className="w-full h-full"
                     >
                         <img
-                            src="https://images.unsplash.com/photo-1474487548417-781cb71495f3?q=80&w=2184&auto=format&fit=crop"
+                            src="https://i.postimg.cc/Qxn2hg1N/Banner_(1).jpg"
                             alt="Hero Train"
                             className="w-full h-full object-cover"
                         />
@@ -272,7 +272,7 @@ export default function About() {
                             Where will you go next?
                         </p>
                         <button
-                            onClick={() => navigate('/dashboard')}
+                            onClick={() => navigate('/contact')}
                             className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 hover:scale-105 transition-all shadow-xl"
                         >
                             Book Your Ticket

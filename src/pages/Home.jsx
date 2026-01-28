@@ -8,6 +8,7 @@ import PopularRoute from '../components/PopularRoute'
 import Whyus from '../components/Whyus'
 import Testimonials from '../components/Testimonials'
 import TrainSearchBar from '../components/TrainSearchBar'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
@@ -76,12 +77,15 @@ export default function Home() {
           <h3 className="text-4xl font-bold mb-4">Ready to Start Your Journey?</h3>
           <p className="text-xl text-slate-300 mb-8">Join millions of travelers who choose Amtrek Reservation  every year</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link to="/contact">
             <button className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full transition-colors">
               Book Your Trip Now
             </button>
-            <button className="px-8 py-4 border-2 border-white hover:bg-white hover:text-slate-900 font-semibold rounded-full transition-colors">
-             Call Us expert help
-            </button>
+            </Link>
+           
+            <a className="px-8 py-4 border-2 border-white hover:bg-white hover:text-slate-900 font-semibold rounded-full transition-colors" href="tel:8663061219">
+               Call Us expert help
+            </a>
           </div>
         </div>
       </section>

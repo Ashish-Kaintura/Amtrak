@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { BadgePercent, GraduationCap, Gift, Users, Sparkles } from "lucide-react";
+import { BadgePercent, GraduationCap, Gift, Users, Sparkles, Link } from "lucide-react";
 
 export default function Offers() {
     const offers = [
@@ -25,7 +25,7 @@ export default function Offers() {
             desc: "Enjoy unbeatable deals during peak holiday seasons. Limited-time festive discounts on all popular routes.",
             tag: "UP TO 40% OFF",
             icon: Sparkles,
-            img: "https://i.postimg.cc/4xmtn9VR/Gemini_Generated_Image_kcvstkkcvstkkcvs.png"
+            img: "https://i.postimg.cc/65RCHR6c/Banner-(2).jpg"
         },
         {
             title: "Exclusive Coupon Codes",
@@ -145,9 +145,11 @@ export default function Offers() {
                         <p className="text-blue-100 text-lg mb-10 max-w-2xl mx-auto">
                             Book now and enjoy exclusive discounts on your next train journey.
                         </p>
+                        <Link to="/contact">
                         <button className="bg-white text-blue-900 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 hover:scale-105 transition-all shadow-xl">
                             Book Tickets Now
                         </button>
+                        </Link>
                     </div>
                 </div>
             </section>
